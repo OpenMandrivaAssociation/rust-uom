@@ -5,8 +5,8 @@
 %global crate uom
 
 Name:           rust-%{crate}
-Version:        0.26.0
-Release:        3%{?dist}
+Version:        0.32.0
+Release:        1%{?dist}
 Summary:        Units of measurement
 
 # Upstream license specification: Apache-2.0/MIT
@@ -17,9 +17,9 @@ Source:         %{crates_source}
 # * Update quickcheck to 0.9, static_assertions to 1
 #   https://github.com/iliekturtles/uom/pull/169
 #   https://github.com/iliekturtles/uom/pull/170
-Patch0:         uom-fix-metadata.diff
+#Patch0:         uom-fix-metadata.diff
 # * Finish update of static_assertions
-Patch0001:      0001-Update-to-static_assertions-to-1.patch
+#Patch0001:      0001-Update-to-static_assertions-to-1.patch
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}
