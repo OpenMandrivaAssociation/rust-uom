@@ -6,7 +6,7 @@
 
 Name:           rust-%{crate}
 Version:        0.26.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Units of measurement
 
 # Upstream license specification: Apache-2.0/MIT
