@@ -17,9 +17,9 @@ Source:         %{crates_source}
 # * Update quickcheck to 0.9, static_assertions to 1
 #   https://github.com/iliekturtles/uom/pull/169
 #   https://github.com/iliekturtles/uom/pull/170
-Patch0:         uom-fix-metadata.diff
+#Patch0:         uom-fix-metadata.diff
 # * Finish update of static_assertions
-Patch0001:      0001-Update-to-static_assertions-to-1.patch
+#Patch0001:      0001-Update-to-static_assertions-to-1.patch
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}
